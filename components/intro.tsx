@@ -66,9 +66,10 @@ export default function Intro() {
         <span className='font-bold'>full-stack developer</span> and a{' '}
         <span className='font-bold'>machine learning engineer</span> with{' '}
         <span className='font-bold'>1 year </span> of experience. I enjoy
-        building <span className='italic'>sites </span> and{' '}
+        <span className='italic'> building sites </span> and{' '}
         <span className='italic'>building ML models</span>. For web development,
-        my focus is <span className='underline'>React (Next.js)</span>.
+        my focus is<span className='font-bold'> React </span>with
+        <span className='font-bold'> Next.js </span>as a framework.
       </motion.h1>
 
       <motion.div
