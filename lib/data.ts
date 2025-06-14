@@ -5,6 +5,7 @@ import { LuGraduationCap } from 'react-icons/lu';
 import tnr from '@/public/tnr.png';
 import prnu from '@/public/PRNU.png';
 import releaf from '@/public/releaf.png';
+import flags from '@/public/flags.png';
 
 export const links = [
   {
@@ -70,6 +71,22 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: 'Arabic Dialect Detector',
+    description:
+      'Instructional notebooks for the detection Arabic dialects using the MADAR corpus and NLP techniques, covering over 25 regional variations. The project involved preprocessing raw Arabic text, training BiLSTM and Transformer-based models, and analyzing results through confusion matrices and classification reports.',
+    tags: [
+      'TensorFlow',
+      'PyTorch',
+      'Hugging Face',
+      'Transformers',
+      'BERT',
+      'Numpy',
+      'Pandas',
+      'Keras',
+    ],
+    imageUrl: flags,
+  },
+  {
     title: 'TNR-Community',
     description:
       'Working on an application to help local communities facilitate the trap, neuter, returning, and adopting of stray animals. This application is designed to keep volunteers and veterinarians organized. A database of strays will also be managed. ML animal recognition in the near future.',
@@ -116,6 +133,15 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  'Python',
+  'NumPy',
+  'TensorFlow',
+  'PyTorch',
+  'Hugging Face',
+  'Scikit-learn',
+  'Pandas',
+  'Matplotlib',
+  'Keras',
   'HTML',
   'CSS',
   'JavaScript',
@@ -128,11 +154,4 @@ export const skillsData = [
   'MongoDB',
   'Redux',
   'Framer Motion',
-  'Python',
-  'NumPy',
-  'TensorFlow',
-  'Scikit-learn',
-  'Pandas',
-  'Matplotlib',
-  'Keras',
 ] as const;
